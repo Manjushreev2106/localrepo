@@ -1,11 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FAQ Accordion</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
-    <p>demo</p>
+  <div class="faq-container">
+    <h1>Frequently Asked Questions</h1>
+
+    <div class="faq-item">
+      <div class="question">What is this project about?</div>
+      <div class="answer">This is a simple FAQ accordion built with HTML, CSS, and jQuery.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="question">Can I contribute?</div>
+      <div class="answer">Yes! Fork it and send a pull request.</div>
+    </div>
+
+    <div class="faq-item">
+      <div class="question">Is jQuery required?</div>
+      <div class="answer">Yes, it's used to handle the toggle effect in this project.</div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
 </html>
